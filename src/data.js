@@ -1,37 +1,37 @@
 export const projects = [
   {
-    title: "React Reserve",
-    subtitle: "MERN Stack",
+    title: "Audit Viewer",
+    subtitle: "ABP Framework, Angular and PostgreSQL",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-1.gif",
-    link: "https://reactbootcamp.com",
+      "An interface that could show the ABP's ABPAuditLogs and ABPAuditLogActions tables with sorting and filtering options.",
+    image: "./AuditViewer.gif",
+    link: "https://github.com/muzoaydo/AuditViewer",
   },
   {
-    title: "React Tracks",
-    subtitle: "React and Python",
+    title: "PySleeper",
+    subtitle: "Python",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-2.gif",
-    link: "https://reedbarger.com",
+      "A desktop project that could put the computer in to sleep or shutdown mode in the given time.",
+    image: "./PySleeper.gif",
+    link: "https://github.com/muzoaydo/PySleeper",
   },
   {
-    title: "DevChat",
-    subtitle: "React and Firebase",
+    title: "PaymentApp",
+    subtitle: "Angular",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-3.gif",
-    link: "https://jsbootcamp.com",
+      "A payment registiration page with validation messages and database management feature.",
+    image: "./PaymentApp.jpg",
+    link: "https://github.com/muzoaydo/PaymentApp",
   },
   {
-    title: "Epic Todo App",
-    subtitle: "React Hooks",
+    title: "Book Store",
+    subtitle: "ABP Framework and Angular",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-4.gif",
-    link: "https://pythonbootcamp.com",
+      "A book store app that shows the existing books and the authors availiable.",
+    image: "BookStore.jpg",
+    link: "https://github.com/muzoaydo/Acme.BookStore",
   },
 ];
 export const skills = [
-  "skill1", "skill2"
+  "Angular", "React", "ABP", ".Net Core", "Python", "C", "Git", "PostgreSQL", "Linux", "C#", "HTML, CSS", "Matlab", "Simulink"
 ];

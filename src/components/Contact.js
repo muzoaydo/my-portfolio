@@ -1,4 +1,5 @@
 import React from 'react';
+import { BsLinkedin } from 'react-icons/bs';
 
 export default function Contact() {
   const [name, setName] = React.useState("");
@@ -45,21 +46,20 @@ export default function Contact() {
                 ADDRESS
               </h2>
               <p className="mt-1">
-                Ankara <br />
-                Turkey
+                Ankara, Turkey
               </p>
             </div>
-            <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
+            <div className="lg:w-1/2 px-6 mt-4 lg:mt-0 mr-6">
               <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                 EMAIL
               </h2>
               <a className="text-indigo-400 leading-relaxed">
-                reedbarger@email.com
+                muzafferaydogan2020@gmail.com
               </a>
-              <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
+              <h2 className="title-font font-semibold text-white tracking-widest text-xs ">
                 PHONE
               </h2>
-              <p className="leading-relaxed">123-456-7890</p>
+              <p className="leading-relaxed">+90 553 678 15 68</p>
             </div>
           </div>
         </div>
@@ -71,11 +71,13 @@ export default function Contact() {
           <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font">
             Hire Me
           </h2>
-          <p className="leading-relaxed mb-5">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum
-            suscipit officia aspernatur veritatis. Asperiores, aliquid?
+          <p className="leading-relaxed mb-5 mt-3">
+            Contact me via E-Mail or <button href="https://www.linkedin.com/in/muzaffer-aydogan/"><BsLinkedin/></button> LinkedIn for business matters.
           </p>
-          <div className="relative mb-4">
+          <p>
+            PS: This form is placed for demonstration purposes!
+          </p>
+          <div className="relative mb-4 mt-3">
             <label htmlFor="name" className="leading-7 text-sm text-gray-400">
               Name
             </label>

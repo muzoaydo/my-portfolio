@@ -12,9 +12,9 @@ export default function Projects() {
             Apps I've Built
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo
-            facilis repellat ab cupiditate alias vero aliquid obcaecati quisquam
-            fuga dolore.
+            Here are the projects i have built for the time being. 
+            I am trying to use as much technologies as possible to enhance my self learning and research skills.
+            You can click on projects to see their GitHub repository.
           </p>
         </div>
         <div className="flex flex-wrap -m-4">
@@ -23,7 +23,7 @@ export default function Projects() {
               href={project.link}
               key={project.image}
               className="sm:w-1/2 w-100 p-4">
-              <div className="flex relative">
+              <div className="flex relative"  style={{height: 500}}>
                 <img
                   alt="gallery"
                   className="absolute inset-0 w-full h-full object-cover object-center"
